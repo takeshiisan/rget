@@ -14,7 +14,6 @@ fn main() {
                 .help("The URL to download"))
         .get_matches();
     let url = matches.value_of("URL").unwrap();
-    println!("Downloading from URL: {}", url);
-    
+    println!("Downloading from URL: {}", url); 
 
 }
